@@ -1,10 +1,11 @@
-<html>
-    <head>
+import pandas as pd
 
-         <title> Hello </title>
-    </head>
+a = 1
+b = 2
 
-</html>
+c = (a + b)
+
+print(c)
 
 
 
