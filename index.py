@@ -9,6 +9,15 @@ c = (a + b)
 
 print(c)
 
+///////////////////////////////////////
+# EX : # Save the result of (42 - 11) * 22 to result.
+#Print result.
+
+result = (42 -11) * 22
+print result
+
+
+
 
 
 
