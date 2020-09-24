@@ -29,6 +29,3 @@ print(a_value + a_result)
 
 
 
-
-
-
