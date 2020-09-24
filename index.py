@@ -9,16 +9,23 @@ c = (a + b)
 
 print(c)
 
-///////////////////////////////////////
-# EX : # Save the result of (42 - 11) * 22 to result.
+
+# EX 1 : # Save the result of (42 - 11) * 22 to result.
 #Print result.
 
 result = (42 -11) * 22
-print result
+print (result)
 
 
 
+# EX 2 : 
 
+a_value = 15
+a_result = (25 - 7) * 17
+
+print(a_value)
+print(12 + a_result)
+print(a_value + a_result)
 
 
 
