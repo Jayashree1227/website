@@ -27,5 +27,12 @@ print(a_value)
 print(12 + a_result)
 print(a_value + a_result)
 
+# Variables 
+counter = 100          # An integer assignment
+miles   = 1000.0       # A floating point
+name    = "John"       # A string
+
+
+
 
 
