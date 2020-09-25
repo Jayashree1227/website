@@ -32,14 +32,20 @@ counter = 100          # An integer assignment
 miles   = 1000.0       # A floating point
 name    = "John"       # A string
 
+
 #Standard Data Types   
 #Numbers         #String      #List     #Tuple       #Dictionary
+
+
 
 #Numbers
 int #(signed integers)
 # long #(long integers, they can also be represented in octal and hexadecimal)
 float #(floating point real values)
 complex #(complex numbers)
+
+
+
 
 #String
 str = 'Hello World!'
@@ -53,6 +59,7 @@ print (str + "TEST") # Prints concatenated string
 
 
 
+
 # Python Lists
 
 list = [ 'abcd' , 786 , 2.23, 'john', 70.2 ]
@@ -60,6 +67,7 @@ print(list)
 
 tinylist = [123, 'john']
 print(tinylist)
+
 
 # SLICING 
 print (list)          # Prints complete list
@@ -70,6 +78,41 @@ print (tinylist * 2)  # Prints list two times
 print (list + tinylist) # Prints concatenated lists
 
 
+#Python Tuples
+#A tuple is another sequence data type that is similar to the list. 
+##A tuple consists of a number of values separated by commas. Unlike lists, 
+#however, tuples are enclosed within parentheses.
+#The main differences between lists and tuples are: Lists are enclosed in brackets ( [ ] ) 
+#and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. 
+#Tuples can be thought of as read-only lists. 
 
 
+tuple = ( 'hijk', 123 , 4.46, 'j', .20  )
+print(tuple)
+tinytuple = (123, 'john')
+print(tinytuple)
+
+tuple = 1000
+print(tuple)
+
+
+#Python Dictionary
+
+#Python's dictionaries are kind of hash table type. 
+# They work like associative arrays or hashes found in Perl and consist of key-value pairs. 
+# A dictionary key can be almost any Python type, but are usually numbers or strings. 
+# Values, on the other hand, can be any arbitrary Python object.
+#Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([])
+
+
+dict = {}
+dict['one'] = "one"
+dict[2] = "two"
+tinydict = {'name':'John', 'code':6734, 'dept':'sales'}
+
+print (dict['one'])       # Prints value for 'one' key
+print (dict[2])           # Prints value for 2 key
+print (tinydict)          # Prints complete dictionary
+print (tinydict.keys())   # Prints all the keys
+print (tinydict.values()) # Prints all the values
 
